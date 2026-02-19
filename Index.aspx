@@ -1,24 +1,22 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="Testing.Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="Testing.Index1" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Test Your Formulas</title>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1>Welcome to the TEST!</h1>
+            <h1>Test your knowlage</h1>
+            <p>Please follow the following links!</p>
             <hr />
-            Enter First Name:- <asp:TextBox ID="Firsttext" runat="server"></asp:TextBox>
-            <br />
-            Enter Last Name:-<asp:TextBox ID="Lasttext" runat="server"></asp:TextBox>
+            <a href="Web_Pages/AreaFinder.aspx">Area Finder</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Web_Pages/Basic Calc.aspx">Basic Calculator</a>
             <hr />
-            <asp:Button ID="Submitbtn" runat="server" OnClick="Submitbtn_Click" Text="Submit"/>
-            <hr />
-            <asp:Label ID="Statementlbl" runat="server"></asp:Label>
+            <asp:Label ID="Greatinglbl" runat="server">return greatings</asp:Label>
         </div>
     </form>
-</body>
+        </body>
 </html>

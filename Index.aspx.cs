@@ -7,23 +7,22 @@ using System.Web.UI.WebControls;
 
 namespace Testing
 {
-    public partial class Index : System.Web.UI.Page
+    public partial class Index1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-        }
-
-        protected void Submitbtn_Click(object sender, EventArgs e)
-        {
-            string first = Firsttext.Text;
-            string last = Lasttext.Text;
-            Statementlbl.Text = Statement_Submit(first, last);
-        }
-        string Statement_Submit(string first, string last)
-        {
-            string statement = "This is test" + first + " " + last;
-            return statement;
+            if(DateTime.Now.Hour >= 6 && DateTime.Now.Hour <= 11)
+            {
+                Greatinglbl.Text = "Good Morning";
+            }
+            else if(DateTime.Now.Hour >= 12 && DateTime.Now.Hour <= 17)
+            {
+                Greatinglbl.Text = "Good Afternoon";
+            }
+            else
+            {
+                Greatinglbl.Text = "Good Evening";
+            }
         }
     }
 }

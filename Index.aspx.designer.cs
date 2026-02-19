@@ -11,7 +11,7 @@ namespace Testing
 {
 
 
-    public partial class Index
+    public partial class Index1
     {
 
         /// <summary>
@@ -24,39 +24,12 @@ namespace Testing
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Firsttext control.
+        /// Greatinglbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Firsttext;
-
-        /// <summary>
-        /// Lasttext control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Lasttext;
-
-        /// <summary>
-        /// Submitbtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Submitbtn;
-
-        /// <summary>
-        /// Statementlbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Statementlbl;
+        protected global::System.Web.UI.WebControls.Label Greatinglbl;
     }
 }
