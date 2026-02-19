@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Test Your Formulas</title>
+    <title>Test Your Skills</title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -12,8 +12,9 @@
             <h1>Test your knowlage</h1>
             <p>Please follow the following links!</p>
             <hr />
-            <a href="Web_Pages/AreaFinder.aspx">Area Finder</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="Web_Pages/Basic Calc.aspx">Basic Calculator</a>
+            <a href="Web Pages/AreaFinder.aspx">Area Finder</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Web Pages/Basic Calc.aspx">Basic Calculator</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Web Pages/Calander.aspx">Calender Operations</a>
             <hr />
             <asp:Label ID="Greatinglbl" runat="server">return greatings</asp:Label>
         </div>

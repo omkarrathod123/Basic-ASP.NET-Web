@@ -68,20 +68,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Web_Pages\AreaFinder.aspx" />
+    <Content Include="Web Pages\AreaFinder.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Web.config" />
-    <Content Include="Web_Pages\Basic Calc.aspx" />
+    <Content Include="Web Pages\Basic Calc.aspx" />
+    <Content Include="Web Pages\Calander.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Web_Pages\AreaFinder.aspx.cs">
+    <Compile Include="Web Pages\AreaFinder.aspx.cs">
       <DependentUpon>AreaFinder.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web_Pages\AreaFinder.aspx.designer.cs">
+    <Compile Include="Web Pages\AreaFinder.aspx.designer.cs">
       <DependentUpon>AreaFinder.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
@@ -92,12 +93,19 @@
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Web_Pages\Basic Calc.aspx.cs">
+    <Compile Include="Web Pages\Basic Calc.aspx.cs">
       <DependentUpon>Basic Calc.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web_Pages\Basic Calc.aspx.designer.cs">
+    <Compile Include="Web Pages\Basic Calc.aspx.designer.cs">
       <DependentUpon>Basic Calc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web Pages\Calander.aspx.cs">
+      <DependentUpon>Calander.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web Pages\Calander.aspx.designer.cs">
+      <DependentUpon>Calander.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
