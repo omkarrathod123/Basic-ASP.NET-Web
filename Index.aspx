@@ -14,7 +14,8 @@
             <hr />
             <a href="Web Pages/AreaFinder.aspx">Area Finder</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="Web Pages/Basic Calc.aspx">Basic Calculator</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="Web Pages/Calander.aspx">Calender Operations</a>
+            <a href="Web Pages/Calander.aspx">Calender Operations</a><br />
+            <a href="Web Pages/Navigation/Page1.aspx">Navigation between Pages</a>
             <hr />
             <asp:Label ID="Greatinglbl" runat="server">return greatings</asp:Label>
         </div>
